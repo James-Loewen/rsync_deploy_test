@@ -34,4 +34,4 @@ jobs:
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
           SCRIPT_BEFORE: |
-            rm -rf assets/
+            rm -rf /home/${{ secrets.REMOTE_USER }}/rsync_deploy_test/assets/
