@@ -28,12 +28,6 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <p>Ok, but what if we change a little bit here?... Then what?...</p>
-      <p>
-        What if I have a directory on the destination machine that I don't want
-        deleted?
-      </p>
-      <p>One more little change!</p>
     </>
   );
 }
